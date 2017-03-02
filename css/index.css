@@ -1,0 +1,316 @@
+html,body,div,p,h1,h2,h3,h4,h5,h6,ul,li{
+	margin: 0px;
+	padding: 0px;
+	font-family: "microsoft yahei";
+	line-height: 1.66;
+}
+ul,li{
+	list-style: none;
+}
+body{
+	background-color: #13161b;
+}
+.hidden{
+	display: none;
+}
+.show{
+	display: block;
+}
+.cantainerBG{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	padding: 10px;
+	z-index: -1;
+}
+.title{
+	margin-top: 50px;
+	text-align: center;
+}
+.triangle{
+	width: 0px;
+	border-left: 46px solid transparent;
+	border-right: 46px solid transparent;
+	border-top: 53px solid #323c57;
+	margin: auto;
+	display: inline-block;
+	position: relative;
+}
+.triangle:after{
+	content: " ";
+	width: 110px;
+	border-bottom:6px solid #46494e;
+	font-weight: bold;
+	position: absolute;
+	top: -26px;
+    left: -143px;
+}
+.triangle:before{
+	content: " ";
+	width: 110px;
+	border-bottom:6px solid #46494e;
+	font-weight: bold;
+	position: absolute;
+	top: -26px;
+    left: 29px;
+}
+.myName{
+	color: #ffffff;
+	font-size: 20px;
+}
+.cantainer{
+	width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+    position: relative;
+    min-height: 800px;
+    box-sizing: border-box;
+}
+.groupContainer{
+	position: relative;
+	transform: rotate(-45deg);
+	-webkit-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+}
+.logoBox{
+    position: absolute;
+    top: 38px;
+    left: -47px;
+    width: 150px;
+    text-align: center;
+}
+.QRcode{
+    top: 17px;
+    left: -30px;
+    width: 120px;
+}
+.match{
+	top: 2px;
+    left: -51px;
+    width: 150px;
+}
+.match>img{
+	width: 70% !important;
+}
+.logoBox img{
+	width: 100%;
+}
+.promp{
+    position: absolute;
+    top: 84px;
+    left: -38px;
+    width: 143px;
+    color: #FFFFFF;
+    font-size: 15px;
+    text-align: center;
+}
+.promp a{
+	color: #FFFFFF;
+}
+.prompBlock a{
+    color: #333;
+}
+/*.prompBlock a:hover,.promp a:hover{
+	text-decoration: underline;
+}*/
+.group{
+	transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	position: absolute;
+}
+.group1{
+	width: 200px;
+	height: 200px;
+	background-color: #212733;
+	top: 200px;
+	left: 200px;
+}
+.group2{
+	width: 200px;
+	height: 200px;
+    background-color: #212733;
+    top: 348px;
+    left: 350px;
+}
+.group3{
+    width: 236px;
+    height: 236px;
+    background-color: #FFFFFF;
+    top: 156px;
+    left: 479px;
+    overflow: hidden;
+}
+.group4{
+	width: 160px;
+    height: 160px;
+    background-color: #212733;
+    top: 488px;
+    left: 515px;
+}
+.group5{
+    width: 160px;
+    height: 160px;
+    background-color: #212733;
+    top: 368px;
+    left: 636px;
+}
+.group6{
+    width: 160px;
+    height: 160px;
+    background-color: #212733;
+    top: 249px;
+    left: 754px;
+}
+.group7{
+    width: 200px;
+    height: 200px;
+    background-color: #FFFFFF;
+    top: 495px;
+    left: 203px;
+    color: #333333;
+}
+.group8{
+	width: 236px;
+    height: 236px;
+    background-color: #FFFFFF;
+    top: 503px;
+    left: 718px;
+}
+.group9{
+    width: 160px;
+    height: 160px;
+    background-color: #fc4928;
+    top: 369px;
+    left: 875px;
+}
+.group10{
+    width: 160px;
+    height: 160px;
+    background-color: #FFFFFF;
+    top: 250px;
+    left: 993px;
+}
+.prompSmall{
+    position: absolute;
+    top: 80px;
+    left: -38px;
+    width: 126px;
+    color: #FFFFFF;
+    font-size: 14px;
+    text-align: center;
+}
+.prompSmall a{
+    color: #FFFFFF;
+    font-size: 14px;
+    text-align: center;
+    margin-top: -10px;
+    display: inline-block;
+}
+.square{
+	width: 388px;
+	height: 388px;
+	border: 3px solid #22252a;
+}
+.cantainerBGBox{
+	position: relative;
+}
+.square1{
+    left: -68px;
+    top: 137px;
+}
+.square1{
+    left: -68px;
+    top: 137px;
+}
+.square2{
+    left: 327px;
+    top: 29px;
+}
+.square3{
+	left: 923px;
+    top: 157px;
+}
+.square4{
+    left: 982px;
+    top: 509px;
+}
+.groupBox{
+	position: relative;
+}
+.QRContent{
+	margin-left: 13px;
+    margin-top: 73px;
+    text-align: center;
+}
+.QRContent2{
+    margin-left: 10px;
+    margin-top: 54px;
+    text-align: center;
+}
+.QRContent3{
+    margin-left: 10px;
+    margin-top: 54px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.QrcodeContent1{
+	width: 200px;
+	height: 200px;
+    top: -28px;
+    left: -70px;
+    background-color: rgba(255,255,255,0.87);
+	position: absolute;
+	display: none;
+}
+.QrcodeContent2{
+	width: 160px;
+	height: 160px;
+    top: -23px;
+    left: -55px;
+    background-color: rgba(255,255,255,0.87);
+	position: absolute;
+	display: none;
+}
+.QrcodeContent3{
+	width: 162px;
+    height: 162px;
+    top: -25px;
+    left: -58px;
+    background-color: rgba(33,39,51,0.87);
+    position: absolute;
+	display: none;
+}
+.group1:hover .QrcodeContent1,.group4:hover .QrcodeContent2,.group5:hover .QrcodeContent2,.group6:hover .QrcodeContent2,.group10:hover .QrcodeContent3{
+	display: block;
+}
+footer{
+	color: #FFFFFF;
+	width: 1200px;
+    margin: 0 auto;
+}
+footer ul li{
+	float: left;
+	text-align: center;
+	color: #FFFFFF;
+	width: 33.33%;
+	font-size: 20px;
+	line-height: 2;
+	margin: 50px auto;
+}
+footer ul li a{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.logoBoxPerson{
+	width: 215px;
+    position: absolute;
+    top: -77px;
+    left: -69px;
+}

@@ -1,0 +1,39 @@
+.scaleAni{
+	animation: 5s scale ease infinite;
+	-webkit-animation: 5s scale ease infinite;
+	-ms-animation: 5s scale ease infinite;
+	-o-animation: 5s scale ease infinite;
+	-moz-animation: 5s scale ease infinite;
+}
+.scaleAni1{
+	animation: 3s scale ease infinite;
+	-webkit-animation: 3s scale ease infinite;
+	-o-animation: 3s scale ease infinite;
+	-ms-animation: 3s scale ease infinite;
+	-moz-animation: 3s scale ease infinite;
+}
+@keyframes scale{
+	0%{transform: scale(1.2) rotate(45deg);}
+	50%{transform: scale(0.7) rotate(45deg);}
+	100%{transform: scale(1.2) rotate(45deg);}
+}
+@-webkit-keyframes scale{
+	0%{transform: scale(1.2) rotate(45deg);}
+	50%{transform: scale(0.7) rotate(45deg);}
+	100%{transform: scale(1.2) rotate(45deg);}
+}
+@-ms-keyframes scale{
+	0%{transform: scale(1.2) rotate(45deg);}
+	50%{transform: scale(0.7) rotate(45deg);}
+	100%{transform: scale(1.2) rotate(45deg);}
+}
+@-o-keyframes scale{
+	0%{transform: scale(1.2) rotate(45deg);}
+	50%{transform: scale(0.7) rotate(45deg);}
+	100%{transform: scale(1.2) rotate(45deg);}
+}
+@-moz-keyframes scale{
+	0%{transform: scale(1.2) rotate(45deg);}
+	50%{transform: scale(0.7) rotate(45deg);}
+	100%{transform: scale(1.2) rotate(45deg);}
+}
