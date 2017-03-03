@@ -268,6 +268,26 @@ body{
     left: 982px;
     top: 509px;
 }
+.square5{
+    right: 0px;
+    top: 1px;
+}
+.square6{
+    right: 45%;
+    top: 45%;
+}
+.square7{
+    left: 0;
+    top: 500px;
+}
+.square8{
+    left: 493px;
+    top: 506px;
+}
+.square9{
+    right: 0px;
+    top: 512px;
+}
 .groupBox{
 	position: relative;
 }
