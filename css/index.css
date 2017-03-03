@@ -84,20 +84,47 @@ body{
     text-align: center;
 }
 .QRcode{
-    top: 17px;
-    left: -30px;
-    width: 120px;
+    top: -28px;
+    left: -76px;
+    width: 200px;
+    color: #ffffff;
+}
+.QRbox{
+    margin-top: 33px;
+    margin-left: 34px;
+    width: 136px;
+    height: 136px;
+}
+.QRbox1{
+    margin-top: 22px;
+    margin-left: 37px;
+    width: 108px;
+    height: 136px;
+}
+.QRbox2{
+    margin-top: 46px;
+    margin-left: 15px;
+    width: 108px;
+}
+.QRbox2 a{
+    color: #333;
+    font-size: 16px;
+}
+.QRbox>img,.QRbox1>img{
+	width: 100%;
 }
 .match{
-	top: 2px;
-    left: -51px;
-    width: 150px;
-}
-.match>img{
-	width: 70% !important;
+    top: -24px;
+    left: -68px;
+    width: 174px;
+    color: #FFFFFF;
 }
 .logoBox img{
 	width: 100%;
+}
+.officeLogo img{
+	width: 120px;
+	margin-top: 38px;
 }
 .promp{
     position: absolute;
@@ -111,7 +138,7 @@ body{
 .promp a{
 	color: #FFFFFF;
 }
-.prompBlock a{
+.prompBlock a,.prompBlock{
     color: #333;
 }
 /*.prompBlock a:hover,.promp a:hover{
@@ -287,7 +314,17 @@ body{
     position: absolute;
 	display: none;
 }
-.group1:hover .QrcodeContent1,.group4:hover .QrcodeContent2,.group5:hover .QrcodeContent2,.group6:hover .QrcodeContent2,.group10:hover .QrcodeContent3{
+.QrcodeContent4{
+    width: 121px;
+    height: 121px;
+    top: 80px;
+    left: -25px;
+    background-color: rgba(255,255,255,0.87);
+    position: absolute;
+    display: none;
+	border-radius: 270% 50% 50% 50%;	
+}
+.group1:hover .QrcodeContent1,.group3:hover .QrcodeContent4,.group4:hover .QrcodeContent2,.group5:hover .QrcodeContent2,.group6:hover .QrcodeContent2,.group10:hover .QrcodeContent3{
 	display: block;
 }
 footer{
